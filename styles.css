@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 div  img {
@@ -18,27 +19,41 @@ div  img {
     margin: 0px;
     padding: 0px;
 }
+
+.portadas{
+
+}
   
 .portada{
     width: 1200px;
-    position: relative;
-    top: -650px;
-    left: 500px;
-    border-radius: 100px; 
-        
+    /* margin-bottom: -486px; */
+    /* margin-left: 16px; */
+    border-radius: 130px;
 }
 .fondo {
-
-    width: 1260px;
-    height: 575px;
-    position: relative;
-    top: -590px;
-    left: -735px;
-    opacity: 70%;
+    width: 1240px;
+    /* height: 520px;
+    opacity: 70%; */
     border-radius: 100px;
+    background-color: rgba(64, 24, 223, 0.63);
+    padding: 30px;
 
 }
 div p {
     text-align: justify;
-     
+  
+}
+.selecionadores{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.button{
+  font-size: 32px;
+  background: #1c1c1c;
+  color: #f1f1f1;
+  border-radius: 45px;
+  padding: 12px;
 }
