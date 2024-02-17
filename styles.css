@@ -54,7 +54,7 @@ ul li {
   justify-content: flex-start;
 }
 
-.img .futbol {
+/*.img .futbol {
   height: 164px;
   border-radius: 186px;
 }
@@ -135,7 +135,7 @@ ul li {
 } */
 
 .contenedor {
-  border: 2px solid red;
+  border: 2px solid none;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -154,6 +154,7 @@ ul li {
 .contenedor img {
   width: 300px;
   height: 300px;
+  border-radius: 50%;
 }
 
 /* Estilos específicos para el icono de TV */
@@ -171,4 +172,25 @@ div.bi-tv {
   width: 100px;
   height: 100px;
   border-radius: 186px;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+}
+.balon {
+  margin: 50px;
+}
+
+.baloncesto {
+  margin: 50px;
+  height: 20px;
+}
+
+.tenis {
+  margin: 50px;
 }
