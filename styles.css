@@ -23,6 +23,12 @@ header {
 .sidebar h2 {
   margin-top: 0;
 }
+ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 55px;
+  justify-items: flex-end;
+}
 
 .sidebar ul {
   list-style-type: none;
@@ -119,6 +125,35 @@ header {
 /* Otros estilos */
 .bi {
   font-size: 24px;
+}
+/* .fondo {
+  background-image: url(/Imagenes/nadador.jpeg);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+.contenedor {
+  border: 2px solid red;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+/* .balon {
+  background-image: url(/Imagenes/otros/balon.svg);
+  width: 20%;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+/* #balon {
+  width: 100px;
+  height: 100px;
+} */
+.contenedor img {
+  width: 300px;
+  height: 300px;
 }
 
 /* Estilos específicos para el icono de TV */
